@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Notch IPM Sample Page</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    header {
+      background: #2d3e50;
+      color: #fff;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      color: #2d3e50;
+    }
+    .hero {
+      background: #eef2f5;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background: #2d3e50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      background: #2d3e50;
+      color: #fff;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>Top Notch IPM</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Top Notch IPM</h1>
+    <p>Your Central Valley Pest Control Experts</p>
+    <a href="#contact" class="btn">Call Now: 209-496-4747</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Top Notch IPM is a trusted name in the Central Valley for eco-friendly and effective pest control services. We're committed to keeping your home and business pest-free with safe, guaranteed solutions.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Pest Control – Ants, spiders, roaches, etc.</li>
+      <li>Rodent Removal – Safe, fast, humane</li>
+      <li>Bird Control – Prevent nesting & droppings</li>
+      <li>Gopher & Snake Management</li>
+      <li>Mosquito Treatments – Yard-safe, long-lasting</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 209-496-4747<br/>
+    <strong>Email:</strong> info@topnotchipm.com</p>
+    <p>Serving Tracy, Mountain House, Lathrop, Manteca, Stockton, Lodi, Modesto, and Ripon.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Top Notch IPM. All rights reserved.
+  </footer>
+
+</body>
+</html>
